@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scores{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #e76118;
+    border-bottom: 2px solid #fff;
+}
+.container{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    padding: 10px;
+    background: #ede911;
+    border-radius: 20px;
+}
+.tools{
+    width: 100%;
+    color: #fff;
+    border-top: 2px solid;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 70px;
+    height: 35px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.restart{
+    background: #d81111;
+    color: #fff;
+}
+.pause , .r{
+    background: #1df4f4;
+   
+}
+.btn-p-r{
+    background: #1df4f4; 
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+    padding: 5px;
+}
+.active , .p{
+    background: green;
+    color: #fff;
+}
+
+
+img{
+width: 100%;
+height: 100%;
+}
+.restart{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    border-radius: 0;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+}
+.restart-img{
+    width: 20px;
+    height: 20px;
+    
+}
+canvas{
+    /* border: 2px solid; */
+    margin-bottom: 10px;
+}
+
+.popup{
+    position: absolute;
+    z-index: 10000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 200px;
+    background: #18d66e;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.show-scores{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+.active-popup{
+    display: flex;
+}
