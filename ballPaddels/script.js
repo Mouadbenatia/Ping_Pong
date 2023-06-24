@@ -16,7 +16,6 @@ let restartBtn = document.querySelector(".restart")
 let pauseBtn = document.querySelector(".pause")
 
 let pauseResumeBtn = document.querySelector(".btn-p-r")
-let popup = document.createElement("div")
 let paddleComputer = {
     x:canvas.width /2 - 25,
     y:0,
@@ -158,7 +157,7 @@ document.addEventListener("keydown", function(event) {
                 dy =  speed / 2
                 dx =  speed / 2
             }
-            pauseBtn.innerHTML = "Pause"
+           
         }
 
     })
